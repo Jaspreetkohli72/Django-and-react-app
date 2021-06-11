@@ -1,16 +1,12 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-
-[dev-packages]
+name = "pypi"
 
 [packages]
+
+[dev-packages]
 django = "==3.0.8"
-django-cors-headers = "*"
-djangorestframework = "*"
-pillow = "*"
-braintree = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
